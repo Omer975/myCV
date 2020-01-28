@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Philosopher&display=swap");
+
+body {
+  /*background: #2959e9;*/
+  background-image: url(/KMPog0.jpg);
+}
+
+.container {
+  background-color: #eff0f5;
+  margin: 3px;
+  padding: 3px;
+  display: flex;
+  border: 2px solid rgb(14, 14, 133);
+  border-radius: 1%;
+  width: 1100px;
+  height: auto;
+  margin: 20px auto;
+  font-family: "Philosopher", sans-serif;
+}
+
+.addres-container {
+  /* display: flex;
+  padding-left: 0px;
+  font-size: 18px; */
+  margin: 0;
+  padding: 0;
+}
+
+.addres-container_1 {
+  position: relative;
+  left: 0;
+  top: 1.1em;
+  font-weight: bold;
+  display: flex;
+  padding-left: 65px;
+}
+
+.addres-container_2 {
+  margin: 0 0 0 10em;
+  line-height: 1.4em;
+  padding: 0;
+  vertical-align: top;
+  font-weight: 100;
+  text-align: left;
+}
+
+.resume-left {
+  width: 30%;
+  min-width: 180px;
+  text-align: center;
+}
+
+.resume-right {
+  width: 70%;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 35px;
+  margin-right: 45px;
+}
+.image img {
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-left: 5px;
+  border: 2px solid;
+  border-color: rgb(14, 14, 133);
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 10px 20px rgba(57, 23, 138, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+h1 {
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: rgb(14, 14, 133);
+}
+
+h2 {
+  text-transform: uppercase;
+  color: rgb(14, 14, 133);
+}
+
+.h3 {
+  margin-left: -18px;
+  border-bottom: 1px solid #ddd;
+  margin-top: auto;
+}
+
+/* .adress,
+.dob {
+  display: flex;
+  padding-left: 65px;
+  font-size: 18px;
+} */
+
+.phone,
+.email,
+.website,
+.social-media {
+  text-align: left;
+  padding-left: 65px;
+  font-size: 18px;
+}
+.website {
+  margin-bottom: 50px;
+}
+.social-media > * {
+  margin-bottom: 12px;
+}
+.phone > h5,
+.email > h5,
+.website > h5 {
+  margin-top: -20px;
+}
+
+/* .about-me,
+.education,
+.experiences,
+.skills {
+  margin-bottom: 50px;
+} */
+
+/*middle line*/
+.resume-right {
+  padding-left: 20px;
+  border-left: solid 1px rgb(14, 14, 133);
+  position: relative;
+}
+
+/* .circle {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background: rgb(14, 14, 133);
+  border-radius: 50%;
+  border: 2px solid rgb(14, 14, 133);
+  margin-left: -50px;
+  margin-top: 12px;
+} */
+
+.subtitle {
+  font-weight: bold;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  position: relative;
+  left: 0;
+  top: 1.1em;
+  font-weight: bold;
+}
+dd {
+  margin: 0 0 0 7em;
+  line-height: 1.4em;
+  padding: 0;
+  vertical-align: top;
+  font-weight: 100;
+}
+
+.skills_chart_left {
+  margin: -10.1em 0 0 20em;
+  padding: 0;
+  vertical-align: top;
+}
+
+.block {
+  float: left;
+  width: 33.33%;
+}
+
+ul {
+  padding-left: 20px;
+  border: 1px solid #ddd;
+  margin-top: 0px;
+}
+
+/** new stuff **/
+
+.resume-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.resume-item__title {
+  text-transform: uppercase;
+  /* font-family: "Roboto", sans-serif; */
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.resume-item__title:before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  /* background: #c90b0b; */
+  background: #14046e;
+  position: absolute;
+  margin-left: -26px;
+  margin-top: 10px;
+}
+
+.time-range-block {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.time-range-block__col1 {
+  display: block;
+  width: 70px;
+  overflow: hidden;
+}
+
+.time-range-block__col2 {
+  flex: 1;
+}
+
+.time-range-block__title {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.time-range-block__content * {
+  margin: 0;
+  color: #666;
+}
+
+.time-range-block__time {
+  font-weight: bold;
+}
