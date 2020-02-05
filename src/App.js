@@ -125,11 +125,17 @@ export default function App() {
         <section className="resume-right">
           <ResumeItem title="About Me">
             <p>
-              A dynamic and motivated person with a proven record of generating
-              and building relationships, managing projects from concept to
-              completion with the multidisciplinary approach, designing
-              educational strategies and curriculums, and coaching individuals
-              to success.
+              My work experience in the field of education begins in 1998. I
+              worked as a math and IT teacher at the international elementary
+              school, gymnasium and lecturer in different universities in
+              Kyrgyzstan and in Turkey for 19 years. I organized many
+              educational activities, projects, many group works, competitions,
+              researches, social organizations, excursions and studies in
+              schools and universities. As a person, I am driven, positive,
+              respectful, helpful, open-minded, attentive and curious, as well
+              as having the ability to work independently but at the same time
+              it is used to working in a team where cooperation with colleagues
+              leads to a successful working method.
             </p>
           </ResumeItem>
           <ResumeItem title="Education">
