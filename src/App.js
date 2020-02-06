@@ -86,12 +86,10 @@ export default function App() {
             <dl className="addres-container">
               <dt className="addres-container_1">D.O.B:</dt>
 
-              <dd className="addres-container_2">17th March 1975</dd>
+              <dd className="addres-container_2">17th March</dd>
 
               <dt className="addres-container_1">Adress:</dt>
-              <dd className="addres-container_2">
-                Ormvråksgatan 31 21562 Malmö
-              </dd>
+              <dd className="addres-container_2">Malmö/Sweden</dd>
             </dl>
           </article>
 
