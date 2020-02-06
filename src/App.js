@@ -78,7 +78,7 @@ export default function App() {
       <section className="container">
         <section className="resume-left">
           <article className="image">
-            <img src="https://i.postimg.cc/N0S0Wvq1/Photo1.png" />
+            <img src="https://i.postimg.cc/1XZ89k3T/Photo-Omerrr.jpg" />
           </article>
 
           <h1>Ömer F. Sözcü</h1>
