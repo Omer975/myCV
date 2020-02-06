@@ -154,7 +154,7 @@ export default function App() {
                 <dd>
                   <i className="fas fa-circle" />
                   <i className="fas fa-circle" />
-                  <i className="far fa-circle" />
+                  <i className="fas fa-circle" />
                   <i className="far fa-circle" />
                   <i className="far fa-circle" />
                 </dd>
@@ -165,7 +165,7 @@ export default function App() {
                 <dd>
                   <i className="fas fa-circle" />
                   <i className="fas fa-circle" />
-                  <i className="far fa-circle" />
+                  <i className="fas fa-circle" />
                   <i className="far fa-circle" />
                   <i className="far fa-circle" />
                 </dd>
