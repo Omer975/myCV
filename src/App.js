@@ -229,7 +229,7 @@ export default function App() {
               </dl>
 
               <dl className="skills_chart">
-                <dt>C#</dt>
+                <dt>JAVA</dt>
                 <dd>
                   <i className="fas fa-circle" />
                   <i className="fas fa-circle" />
