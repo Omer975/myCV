@@ -104,7 +104,9 @@ export default function App() {
 
           <article className="website">
             <h4>Website:</h4>
-            <h5>https://omersozcu.netlify.com/</h5>
+            <h5>
+              <a href="https://omersozcu.netlify.com/">omersozcu.netlify.com</a>
+            </h5>
           </article>
 
           <article className="social-media">
